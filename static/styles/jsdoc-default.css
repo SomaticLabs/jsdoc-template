@@ -955,3 +955,8 @@ input.search-input:focus {
   display: flex;
   padding-top: 1em;
 }
+
+/* CUSTOM STYLES */
+.home-search-container {
+    display: flex;
+}

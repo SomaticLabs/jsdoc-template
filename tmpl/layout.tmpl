@@ -53,7 +53,7 @@ var usesSearch = Boolean(templates.search);
   <label for="nav-trigger" class="overlay"></label>
 
   <div class="top-nav-wrapper">
-    <ul>
+    <ul class="home-search-container">
       <li <?js if (title == 'Home') { ?> class="active" <?js } ?>>
         <a href="index.html">
           <?js if (title != 'Home') { ?>
@@ -80,10 +80,6 @@ var usesSearch = Boolean(templates.search);
           </svg>
           <input type="text" placeholder="Search" class="search-input">
         </div>
-
-        <button data-search="next">&darr;</button>
-        <button data-search="prev">&uarr;</button>
-        <button data-search="clear">✖</button>
       </li>
 
     </ul>
