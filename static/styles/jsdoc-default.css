@@ -973,6 +973,10 @@ mark.current {
     position: relative;
 }
 
+#search-markjs-container li {
+    box-sizing: border-box;
+}
+
 #search-controls-container {
     position: absolute;
     right: 0;
