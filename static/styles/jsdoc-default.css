@@ -976,6 +976,7 @@ mark.current {
 #search-controls-container {
     position: absolute;
     right: 0;
+    top: 0;
     text-align: right;
 }
 
