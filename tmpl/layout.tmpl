@@ -71,7 +71,6 @@ var usesSearch = Boolean(templates.search);
         </a>
       </li>
 
-      <?js if (usesSearch) { ?>
       <li>
         <div class="search-wrapper">
           <svg fill="#6D6D6D" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
@@ -82,7 +81,12 @@ var usesSearch = Boolean(templates.search);
           <input type="text" placeholder="Search" class="search-input">
         </div>
       </li>
-      <?js } ?>
+
+      <li>
+      <button data-search="next">&darr;</button>
+      <button data-search="prev">&uarr;</button>
+      <button data-search="clear">✖</button>
+      </li>
 
     </ul>
   </div>
