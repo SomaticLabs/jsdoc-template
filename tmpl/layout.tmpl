@@ -14,8 +14,6 @@ var usesSearch = Boolean(templates.search);
       <?js= title ?> - Documentation
   </title>
 
-  <link href="https://www.braintreepayments.com/images/favicon-ccda0b14.png" rel="icon" type="image/png">
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
 
@@ -91,7 +89,7 @@ var usesSearch = Boolean(templates.search);
 
   <nav>
     <h3 class="reference-title">
-      <?js= templates.referenceTitle || 'Braintree SDK Client Reference' ?>
+      <?js= templates.referenceTitle || 'Zorb SDK Documentation' ?>
     </h3>
 
     <?js= this.nav ?>
@@ -121,7 +119,7 @@ var usesSearch = Boolean(templates.search);
     $(function () {
       window.docsearch({
         apiKey: '<?js= templates.search.apiKey ?>',
-        indexName: '<?js= templates.search.indexName || "braintree" ?>',
+        indexName: '<?js= templates.search.indexName || "zorb" ?>',
         inputSelector: '.search-input',
         debug: false, // Set debug to true if you want to inspect the dropdown
         algoliaOptions: {
