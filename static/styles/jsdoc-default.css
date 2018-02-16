@@ -960,3 +960,11 @@ input.search-input:focus {
 .home-search-container {
     display: flex;
 }
+
+mark {
+    background: yellow;
+}
+
+mark.current {
+    background: orange;
+}
