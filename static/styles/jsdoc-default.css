@@ -983,4 +983,7 @@ mark.current {
 #search-controls-container > button {
     padding: 0px;
     margin: 2px;
+    font-size: 12px;
+    line-height: 12px;
+    border: #fff 4px solid;
 }
